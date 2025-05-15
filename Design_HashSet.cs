@@ -1,5 +1,5 @@
-/* Time Complexity: O(1)
-   Space Complexity: O(n)
+/* Time Complexity: Add O(1); Remove O(1); Contains O(1)
+   Space Complexity: Add O(1); Remove O(1); Contains O(1)
 
    Approach: Computing the initial hash of the  number by using modulo square of the range for the first dimension and divide by square root of the range for the second dimension gives us the exact boolean array element. If the element is added to the array then the corresponding array element computed by hash functions is set to true.
 */
